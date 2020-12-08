@@ -1,0 +1,78 @@
+.message {
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    margin-top: 5px;
+    max-width: 40vw;
+    color: #0f4c75;
+}
+
+
+
+.text {
+    justify-content: flex-end;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.time {
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+    color: #65aadb;
+}
+
+.name {
+    position: absolute;
+    left: 5px;
+    top: -5px;
+    font-size: 12px;
+    color: #65aadb;
+}
+
+.chat {
+    border-radius: 10px;
+    list-style: none;
+    background: #e1f2fb;
+    color: #0f4c75;
+    padding: 20px;
+    height: 50vh;
+    overflow: scroll;
+    overflow: auto;
+}
+
+.contacts {
+    list-style: none;
+    background: none;
+    padding: 0 0 0 0;
+    height: 50vh;
+    overflow: scroll;
+    overflow: auto;
+    margin: 0;
+}
+
+
+.chat li {
+    padding: 0.25rem;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.other {
+    align-self: flex-start;
+    padding-top:10px;
+    position: relative;
+}
+
+.self {
+    align-self:flex-end;
+}
+
+.button {
+    background-color: #bbb;
+    display: block;
+    width: 100%;
+}
